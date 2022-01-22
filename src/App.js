@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
-import Learn from './learn';
+import Dinner from './Dinner'
 
 function App() {
   return (
     <div className="App">
-      <Learn serverLess="Serverless Full Stack Development" serverlessAI="Serverless AI, BlockChain,and Cloud Development " internship="MEAN Stack Developer"/>
-      
-      
+      <Dinner  dishName="Chicken Qorma" sweetDish="Jaleebi" />
+      <hr/>
+      <Dinner  dishName="Chicken Boryani" sweetDish="Kheer" />
+
     </div>
   );
 }
